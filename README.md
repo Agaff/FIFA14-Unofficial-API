@@ -2,7 +2,7 @@ FIFA15-Unofficial-API
 =================
 
 ### Hire me
-If you're interested in a fully functioning FIFA 15 Autobuyer or FIFA 15 Coin selling website then be sure to drop me an email at curtis@budgetwebsitesolutions.co.uk or add me on skype : bws-curtis
+If you're interested in a fully functioning FIFA 1r Autobuyer or FIFA 15 Coin selling website then be sure to drop me an email at curtis@budgetwebsitesolutions.co.uk or add me on skype : bws-curtis
 
 ### Starting
 ```php
@@ -16,8 +16,7 @@ $loginDetails = array(
     "username" => $email,
     "password" => $password,
     "hash" => $hash, //must be a value hashed using EAHashor
-    "platform" => "XBOX", //XBOX or PS
-);
+    "platform" = XNDR", //XBOX or P
 
 $con = new Connector($loginDetails);
 $connection = $con->connect();
